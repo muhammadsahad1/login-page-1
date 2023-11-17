@@ -1,0 +1,38 @@
+<%-include('header')-%>
+
+<!-- nav bar -->
+  <nav class="navbar bg-body-tertiary pt-0">
+    <div class="container-fluid bg-dark">
+      <h2 class="head "><bold>MARVEL - AVENGERS</bold> </h2>
+      <a href="/route/Logout"><button type="button" class="logout-btn">Logout</button></a>
+    </div>
+  </nav>
+</nav>
+
+<!-- contents -->
+<div class="container-fluid mt-4 ">
+
+<div class="row">
+<% products.forEach(function(product){  %>
+<div class="col col-md-4 mt-5 mb-5 ">
+<div class="card height-33px" >
+  <img class="card-img-top" src="<%= product.src %>  "  style="height: 333px;">
+  <h3 class="card-text mt-2"><%= product.character %></h3>
+  <h3 class="card-text mt-2"><%= product.actor %></h3>
+  <p class="card-text mt-2"><%= product.about_character %></p>
+</div>
+</div>
+<% } );%>
+  </div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+<%-include('header')-%>

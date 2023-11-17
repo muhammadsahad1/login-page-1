@@ -1,0 +1,37 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+body{
+
+  font-family: 'Open Sans', sans-serif;
+background-image: url(./bg-img/bg6.png)
+}
+.container{
+border-radius: 10%;
+
+}
+.container.border{
+border-color: brown;
+  
+  }
+#login.title>span{
+  color: gray;
+
+}
+.form-text{
+  font-size: small;
+
+}
+
+.text-center{
+  padding: 10%;
+
+}
+.head{
+  color: red;
+}
+
+.container {
+  border:darkblue
+}
